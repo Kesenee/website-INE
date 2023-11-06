@@ -1,0 +1,425 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+/*ส่วนของด้านบนของทุกๆหน้า*/
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+/*ส่วนของ เมนู*/
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.main-content {
+    background-color: #f0f0f0; padding: 10px;
+    height: 100px;
+    float: none; color:#000000;
+    text-align: center;
+    }
+
+.logonav {
+    height: auto;
+    width: 60px;
+    margin-left: auto auto;
+    display: block;
+}
+
+/*ส่วนเมนูข้างบนตรงกิจกรรมเอาเมาส๋ชี้แล้วดรอปลงมา*/
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+      
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+      
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+      
+.dropdown-content a {
+    color: black;
+    padding: 10px 11px;
+    text-decoration: white;
+    display: block;
+    color: #f8f8f8;
+    
+}
+      
+.dropdown-content a:hover {background-color: #333;}
+      
+.dropdown:hover .dropdown-content {display: block;}
+      
+.dropdown:hover .dropbtn {background-color: #000000;}   
+
+/*ข้างล่างสุด*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+ 
+
+/*ส่วนเว็บในหน้า*/
+.website {
+    text-align: left;
+    margin: auto ;
+    height: 10px;
+    width: auto;
+}
+/*ส่วนเว็บในหน้าติดต่อที่เป็นรูป*/
+.website img {
+    height: 150px;
+    width: auto;
+    
+}
+/*หน้าติดต่อที่เป็นส่วนข้อมูลข้างบน*/
+
+
+
+.contact-info h1 {
+    margin: 0;
+}
+
+.contact-info {
+    padding: 20px;
+}
+
+.contact-info h2 {
+    color: #003366; /* สีน้ำเงินเข้ม */
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.links {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.links ul {
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.links li {
+    margin: 5px 0;
+}
+
+.links a {
+    color: #003366; /* สีน้ำเงินเข้ม */
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+/*ส่วนหน้าเเรกต่างๆ*/
+.logo-kmu img{
+    margin: auto auto;
+    display: block;
+    padding: 5px;
+    width: auto;
+    height: 100px;
+}
+/*ส่วนหน้าเเรกต่างๆที่ใช่ h2*/
+.logo-kmu h2{ 
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*ส่วนหน้าเเรกต่างๆที่ใช้ ้1*/
+.logo-kmu h1{ 
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/*ส่วนหน้าเเรกต่างๆที่ใช้ตัว P*/
+.logo-kmu p{ 
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+   
+
+
+/*ส่วนอธิบายกิจกรรม*/
+.activitiesh1 h1{
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+
+/*ros*/
+* {
+    box-sizing: content-box;
+}
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+    }
+
+.act1 img{
+    height: auto;
+    width: 500px;
+}
+.act1 {
+    display: grid;
+    grid-template-columns: auto auto auto  ; 
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.act1 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+
+.row {
+    display: -webkit-flex;
+    display: contents;
+}
+
+
+.logo-kmu img{
+    height: auto;
+    width: 200px;
+}
+.logo-kmu {
+    display: grid;
+    grid-template-columns: auto auto auto  ; 
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+    
+.logo-kmu > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    }
+    
+
+
+.amos1 img{
+    height: auto;
+    width: 500px;
+}
+.amos1 {
+    display: grid;
+    grid-template-columns: auto auto auto  ; 
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+        
+.amos1 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.amos1 .item1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    }
+        
+
+       
+
+.amos {
+    text-align: center;
+    font-size: x-large  ;
+    background-color: #2196F3;
+    color: #f0f0f0;
+    padding: 10px;
+}
+
+
+@media ( max-width: 600px ) {
+    .logo-kmu ,.act1 img , .amos1{
+    width: 100%;
+
+}
+}
+/**/
+
+
+
+
+
+body {
+    text-align: center; /* จัดเนื้อหาให้อยู่ตรงกลาง */
+}
+
+table {
+    margin: 0 auto; /* จัดตารางให้อยู่ตรงกลาง */
+    border-collapse: collapse;
+    width: 80%; /* กำหนดความกว้างของตาราง */
+}
+
+th, td {
+    border: 1px solid #000; /* เพิ่มเส้นขีดแบ่งระหว่างเซลล์ */
+    padding: 8px; /* กำหนดระยะระหว่างขอบเซลล์และข้อความ */
+}
+
+th {
+    background-color: #f2f2f2; /* สีพื้นหลังของเซลล์หัวข้อ */
+}
+
+ul {
+    list-style-type: none; /* ลบเครื่องหมายลูกศรของรายการ */
+    text-align: left; /* จัดข้อความรายการให้อยู่ซ้าย */
+}
+
+ul li {
+    margin-bottom: 10px; /* กำหนดระยะห่างระหว่างรายการ */
+}
+
+ul li p {
+    margin: 0; /* ลบระยะขอบของย่อหน้าข้อความ */
+}
+
+
+
+.about h1 {
+    background-color: #3498db; /* กำหนดสีพื้นหลังของ H1 เป็นสีน้ำเงินเข้ม */
+    color: #000000; /* กำหนดสีตัวอักษรใน H1 เป็นสีขาว */
+    padding: 10px; /* เพิ่มระยะห่างด้านในของ H1 */
+}
+
+.about body {
+    background-color: #46b0f7; /* กำหนดสีพื้นหลังเป็นสีฟ้า */
+    color: #000000; /* กำหนดสีตัวอักษรเป็นสีขาว */
+    font-family: Arial, sans-serif; /* เลือกฟอนต์สาธารณะ */
+
+}
+
+.about p,ol {
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+h1,h2 {
+    background-color: #3498db;
+}
+
+
+
+.contactimg img{
+    height: auto;
+    width: 500px;
+}
+.contactimg {
+    display: grid;
+    grid-template-columns: auto auto auto auto  ; 
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+
+}
+        
+.contactimg > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.contactimg {
+    text-align: center;
+    font-size: x-large  ;
+    background-color: #2196F3;
+    color: #f0f0f0;
+    padding: 10px;
+}
+
+
+
+
+.campusimg img{
+    height: auto;
+    width: 500px;
+}
+.campusimg {
+    display: grid;
+    grid-template-columns: auto auto auto auto  ; 
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+
+}
+        
+.campusimg > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.campusimg {
+    text-align: center;
+    font-size: x-large  ;
+    background-color: #2196F3;
+    color: #f0f0f0;
+    padding: 10px;
+}
+
+.campus p {
+    font-size: 25px;
+}
